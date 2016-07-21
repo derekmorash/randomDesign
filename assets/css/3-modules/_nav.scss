@@ -1,3 +1,45 @@
 .nav {
-  
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.2rem 2rem;
+
+  &--branding {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.2em 1em;
+    line-height: 1.4;
+  }
+
+  &--list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    float: right;
+
+    &-item {
+      margin-left: 2em;
+      vertical-align: middle;
+      display: block;
+      float: left;
+
+      a {
+        color: #ffffff;
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.2em 0;
+        line-height: 1.4;
+
+        &.btn {
+          padding: 0.2em 1em;
+        }
+      }
+    }
+  }
 }
