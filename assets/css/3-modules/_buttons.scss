@@ -5,7 +5,7 @@
   background-color: $secondary;
   color: #ffffff;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.4;
   text-align: center;
   white-space: nowrap;
@@ -30,7 +30,7 @@
 }
 
 .btn-secondary {
-  background-color: transparentize($light-text, 0.4);
+  background-color: transparentize(lighten($light-text, 25%), 0.6);
   &:hover {
    background-color: $light-text;
   }

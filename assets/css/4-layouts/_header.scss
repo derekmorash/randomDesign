@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background: {
+    color: $dark-bg;
+    image: url('../images/hero.jpg');
+    size: cover;
+    repeat: no-repeat;
+    position: center;
+  }
+
+  &--description {
+    padding: 100px 0;
+    text-align: center;
+    h1, h3 {
+      color: #ffffff;
+      margin-bottom: 0.3em;
+      padding: 0 0.6em;
+    }
+    h3 {
+      font-weight: 300;
+      font-size: 1.4rem;
+      line-height: 1.6;
+      max-width: 26em;
+      margin: 0 auto 2.8rem;
+    }
+    .cta1 {
+      margin-right: 0.6em;
+    }
+    .cta2 {
+      margin-left: 0.6em;
+    }
+  }
+}
