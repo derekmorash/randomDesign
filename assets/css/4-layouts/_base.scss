@@ -1,0 +1,17 @@
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  @include clearfix;
+}
+
+.section-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  @include clearfix;
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+  }
+}

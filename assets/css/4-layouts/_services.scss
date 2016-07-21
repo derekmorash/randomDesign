@@ -1,0 +1,22 @@
+.service {
+  width: 100%;
+  margin: 1rem auto;
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  transform: translateY(-80px);
+  outline: 1px solid red;
+  height: 200px;
+
+  @media screen and (min-width: 800px) {
+    width: 32%;
+    margin-right: 2%;
+    z-index: 10;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,14 +1,19 @@
 .nav {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1.2rem 2rem;
+  padding: 1.6rem 0.2rem;
+  @media screen and (min-width: 800px) {
+    padding: 1.6rem 1rem;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 1.6rem 0;
+  }
 
   &--branding {
     color: #ffffff;
-    text-decoration: none;
     font-size: 1rem;
     display: inline-block;
-    padding: 0.2em 1em;
+    padding: 0.4em 1em;
     line-height: 1.4;
   }
 
@@ -31,13 +36,18 @@
       a {
         color: #ffffff;
         font-size: 1rem;
-        text-decoration: none;
         display: inline-block;
-        padding: 0.2em 0;
+        padding: 0.4em 0;
         line-height: 1.4;
+        &:hover {
+          color: darken(#ffffff, 20%);
+        }
 
         &.btn {
-          padding: 0.2em 1em;
+          padding: 0.4em 1em;
+          &:hover {
+            color: #ffffff;
+          }
         }
       }
     }

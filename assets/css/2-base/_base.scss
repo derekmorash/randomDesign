@@ -3,6 +3,5 @@
 }
 
 ::selection {
-  color: #ffffff;;
-  background: $dark-bg;
+  background: transparentize($secondary, 0.4);
 }
