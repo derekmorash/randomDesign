@@ -40,9 +40,11 @@ h6 {
 
 p, a, button, label, input, textarea, span {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
+  line-height: 1.6;
   color: $light-text;
+  margin: 0;
 }
 
 a {
@@ -81,6 +83,6 @@ label {
   }
 
   p, a, button, label, input, textarea, span {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }

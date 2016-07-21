@@ -1,22 +1,40 @@
-.service {
-  width: 100%;
-  margin: 1rem auto;
-  float: left;
-  position: relative;
-  display: block;
-  background-color: #ffffff;
-  border-radius: 0.6rem;
-  transform: translateY(-80px);
-  outline: 1px solid red;
-  height: 200px;
-
-  @media screen and (min-width: 800px) {
-    width: 32%;
-    margin-right: 2%;
+.services {
+  background-color: $light-bg;
+  &--service {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 3.4rem 1.6rem;
+    text-align: center;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.4rem;
     z-index: 10;
+    transform: translateY(-60px);
 
-    &:nth-child(3n) {
-      margin-right: 0;
+    // debug styles
+    // outline: 1px solid red;
+    // height: 200px;
+
+    p {
+      color: transparentize($dark-text, 0.4);
+      margin-bottom: 1.4em;
+      font-size: 1rem;
+    }
+
+    .btn {
+      font-size: 0.8rem;
+    }
+
+    @media screen and (min-width: 800px) {
+      width: 32%;
+      margin-right: 2%;
+      transform: translateY(-90px);
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
     }
   }
 }
