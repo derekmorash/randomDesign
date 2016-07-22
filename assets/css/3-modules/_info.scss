@@ -1,0 +1,52 @@
+.header--description, .contact--info {
+  padding: 4rem 0 6rem;
+  text-align: center;
+  h1, .subhead {
+    color: #ffffff;
+    margin-bottom: 0.3em;
+    padding: 0 0.6rem;
+    text-align: center;
+  }
+  .subhead, p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 26em;
+    margin: 0 auto 2.8rem;
+  }
+  .cta1, .cta2 {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .cta1 {
+      display: inline-block;
+      margin-right: 0.6em;
+    }
+    .cta2 {
+      display: inline-block;
+      margin-left: 0.6em;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    padding: 5rem 0 12rem;
+    .subhead, p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.contact--info {
+  padding: 6rem;
+  h2 {
+    color: $dark-text;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0.2em auto;
+  }
+  p {
+    color: transparentize($light-text, 0.2);
+  }
+}

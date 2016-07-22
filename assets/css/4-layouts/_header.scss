@@ -7,44 +7,4 @@
     repeat: no-repeat;
     position: center;
   }
-
-  &--description {
-    padding: 4rem 0 6rem;
-    text-align: center;
-    h1, h3 {
-      color: #ffffff;
-      margin-bottom: 0.3em;
-      padding: 0 0.6rem;
-    }
-    h3 {
-      font-weight: 300;
-      font-size: 1rem;
-      line-height: 1.6;
-      max-width: 26em;
-      margin: 0 auto 2.8rem;
-    }
-    .cta1, .cta2 {
-      display: block;
-      margin: 0 auto 1rem;
-    }
-
-    @media screen and (min-width: 600px) {
-      .cta1 {
-        display: inline-block;
-        margin-right: 0.6em;
-      }
-      .cta2 {
-        display: inline-block;
-        margin-left: 0.6em;
-      }
-    }
-
-    @media screen and (min-width: 800px) {
-      padding: 5rem 0 12rem;
-      h3 {
-        font-size: 1.2rem;
-      }
-    }
-
-  }
 }
