@@ -9,7 +9,7 @@ section {
 .section-inner {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
   @include clearfix;
   @media screen and (min-width: 1460px) {
     padding: 0;

@@ -1,5 +1,5 @@
 .header--description, .contact--info {
-  padding: 4rem 0 6rem;
+  padding: 1.2rem 0 5rem;
   text-align: center;
   h1, .subhead {
     color: #ffffff;
@@ -12,20 +12,28 @@
     font-size: 1rem;
     line-height: 1.6;
     max-width: 26em;
-    margin: 0 auto 2.8rem;
+    margin: 0 auto 1.2rem;
   }
-  .cta1, .cta2 {
-    display: block;
-    margin: 0 auto 1rem;
+  .cta1 {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 0.3em;
+  }
+  .cta2 {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-left: 0.3em;
   }
 
   @media screen and (min-width: 600px) {
     .cta1 {
       display: inline-block;
+      font-size: 1rem;
       margin-right: 0.6em;
     }
     .cta2 {
       display: inline-block;
+      font-size: 1rem;
       margin-left: 0.6em;
     }
   }
@@ -34,12 +42,13 @@
     padding: 5rem 0 12rem;
     .subhead, p {
       font-size: 1.2rem;
+      margin: 0 auto 2.2rem;
     }
   }
 }
 
 .contact--info {
-  padding: 4rem;
+  padding: 4rem 1rem;
   h2 {
     color: $dark-text;
     font-size: 2rem;
@@ -51,5 +60,8 @@
   }
   .btn {
     font-size: 1.2rem;
+  }
+  @media screen and (min-width: 800px) {
+    padding: 4rem 0 2rem;
   }
 }
