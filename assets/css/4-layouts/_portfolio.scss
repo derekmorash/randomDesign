@@ -62,6 +62,8 @@
         display: block;
         top: 100%;
         border-radius: 0.6rem 0.6rem 0 0;
+
+        transition: transform 400ms ease-in-out, width 400ms ease-in-out, left 400ms ease-in-out;
       }
       .carousel-middle {
         width: 250px;
@@ -72,13 +74,15 @@
       .carousel-left, .carousel-right {
         width: 180px;
         transform: translateY(-100%);
-        z-index: 1;
       }
       .carousel-right {
-        right: 0;
+        left: 100%;
+        transform: translateX(-100%) translateY(-100%);
+        z-index: 2;
       }
       .carousel-left {
         left: 0;
+        z-index: 1;
       }
       @media screen and (min-width: 500px) {
         min-height: 215px;
